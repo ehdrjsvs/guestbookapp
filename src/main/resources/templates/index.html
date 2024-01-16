@@ -5,7 +5,7 @@
 <link href="/common.css" rel="stylesheet">
 <link href="/guestbook.css" rel="stylesheet">
 
-<title>방명록 mmm (K8S)</title>
+<title>방명록 (K8S)</title>
 </head>
 <body>
 	<div class="guestbook list displaynone" style="display: block;">
@@ -18,18 +18,18 @@ HealthCheck : This is v1 running in pod [[${host.name}]] ([[${host.ip}]])
 		</ul>
 	</div>
 	
-	<h4 class="g-top">방명록 v3</h4>
+	<h4 class="g-top">방명록 v4</h4>
 	<div class="top-img">
 		<img src="/bg-guestbook.jpg">
 	</div>
 	<form action="/" method="post" id="frm" enctype="multipart/form-data">
 		<div class="g-cont">
 			<ul>
-				<li class="name"><input name="name" type="text" maxlength="20" placeholder="이르음" class="form-control"></li>
-				<li class="msg"><textarea name="content" maxlength="200" placeholder="내용을 입력해주세요요오" class="form-control" rows="3"></textarea></li>
+				<li class="name"><input name="name" type="text" maxlength="20" placeholder="이름입력해라" class="form-control"></li>
+				<li class="msg"><textarea name="content" maxlength="200" placeholder="내용을 입력해라" class="form-control" rows="3"></textarea></li>
 				<li>파일첨부<input type="file" name="uploadingFile"></li>
 			</ul>
-			<p class="btn btn-lg" onclick="document.getElementById('frm').submit();">방명록 남기기기기</p>
+			<p class="btn btn-lg" onclick="document.getElementById('frm').submit();">방명록 남겨라</p>
 		</div>
 	</form>
 
